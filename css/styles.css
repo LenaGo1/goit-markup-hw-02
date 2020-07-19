@@ -1,0 +1,64 @@
+:root {
+  --primary-text-color: #757575;
+  --second-text-color: #212121;
+  --accent-color: #2196f3;
+  --second-accent-color: #ffffff;
+  --primary-background-color: #ffffff;
+  --second-background-color: #f5f4fa;
+}
+body {
+  color: var(--primary-text-color);
+  background-color: var(--primary-background-color);
+}
+.list {
+  list-style: none;
+}
+.logo {
+  color: var(--accent-color);
+}
+/* site nav */
+.site-nav .link {
+  color: var(--second-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+.contacts {
+  color: var(--primary-text-color);
+}
+.contacts:hover,
+.contacts:focus {
+  color: var(--accent-color);
+}
+/* hero */
+.hero-title {
+  color: var(--second-accent-color);
+}
+.section-title {
+  color: var(--second-text-color);
+}
+/* features */
+.features .title {
+  color: var(--second-text-color);
+}
+.work-list .title {
+  color: var(--second-accent-color);
+}
+.team-list .member {
+  color: var(--second-text-color);
+}
+/* button */
+.button {
+  color: var(--second-text-color);
+  background-color: var(--accent-color);
+}
+.hero .button {
+  color: var(--second-accent-color);
+}
+.auth-nav .button {
+  background-color: var(--second-background-color);
+}

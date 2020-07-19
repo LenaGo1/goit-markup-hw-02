@@ -4,96 +4,284 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-  </head>
+<link rel="stylesheet" href="./css/styles.css" /> 
+    </head>
   <body>
+    <!--шапка сайта-->
     <header>
       <nav>
-        <a href="">Web Studio</a>
-      </nav>
-      <ul>
-        <li><a href="">Студия</a></li>
-        <li><a href="">Портфолио</a></li>
-        <li><a href="">Контакты</a></li>
-      </ul>
-    </nav>
-    <a href="mailto:info@devstudio.com">
-        <img src="images/envelope.svg" />
-        info@devstudio.com</a>
-    <a href="tel:+38 096 111 11 11">
-        <img src="images/smartphone.svg"/>
-         096 111 11 11</a>
-    </header>
-    <section>
-<ul>
-<li>Все</li>
-<li>Веб-сайты</li>
-<li>Приложения</li>
-<li>Дизайн</li>
-<li>Маркетинг</li>
-</ul>
-    </section>
-    <section>
-        <ul>
-<li><p>Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
-шпионажа и атак на защищённые сервера конкурентов.</p>
-<h3>Технокряк</h3>
-<p>Веб-сайт</p></li>
-<li>
-    <img src="images/basketball.jpg" alt="постер баскетбол" width="370"/>
-    <h3>Постер New Orlean vs Golden Star</h3>
-    <p>Дизайн</p>
-</li>
-<li>
-    <img src="images/seafood.jpg" alt="постер баскетболл" width="370"/>
-    <h3>Ресторан Seafood</h3>
-    <p>Приложение</p>
-</li>
-<li>
-    <img src="images/headphones.jpg" alt="наушники" width="370"/>
-    <h3>Проект Prime</h3>
-    <p>Маркетинг</p>
-</li>
-<li>
-    <img src="images/boxes.jpg" alt="две коробки" width="370"/>
-    <h3>Проект Boxes</h3>
-    <p>Приложение</p>
-</li>
-<li>
-    <img src="images/screen.jpg" alt="экран" width="370"/>
-    <h3>Inspiration has no Borders</h3>
-    <p>Веб-сайт</p>
-</li>
-<li>
-    <img src="images/book.jpg" alt="книга" width="370" />
-<h3>Издание Limited Edition</h3>
-<p>Дизайн</p>
-</li>
-<li>
-    <img src="images/teg.jpg" alt="тег" width="370" />
-    <h3>Проект LAB</h3>
-    <p>Маркетинг</p>
-</li>
-<li>
-    <img src="images/nout.jpg" alt="ноутбук" />
-    <h3>Growing Business</h3>
-    <p>Приложение</p>
-</li>
+        <a href="/" class="logo">
+          Web Studio
+        </a>
+
+        <ul class="site-nav list">
+          <li><a href="" class="link current">Студия</a></li>
+          <li><a href="./portfolio.html" class="link">Портфолио</a></li>
+          <li><a href="" class="link">Контакты</a></li>
         </ul>
-    </section>
+      </nav>
+      <a href="mailto:info@devstudio.com" class="contacts">
+        <img src="./images/envelope.svg" alt="конверт" />
+         info@devstudio.com
+      </a>
+      <a href="tel:+380961111111" class="contacts">
+        <img src="./images/smartphone.svg" alt="смартфон" />
+        +38 096 111 11 11
+      </a>
+    </header>
+    <main>
+      <!--герой-->
+      <section class="hero">
+        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+        <a href="" class="button">Заказать услугу</a>
+      </section>
+      <!--особенности-->
+      <section class="features">
+        <h2>Особенности</h2>
+        <ul>
+          <li>
+            <img src="images/Group.svg" alt="антенна" />
+            <h3 class="title">Внимание к деталям</h3>
+            <p>
+              Идейные соображения, а также начало повседневной работы по
+              формированию позиции.
+            </p>
+          </li>
+          <li>
+            <img src="images/clock1.svg" alt="часы" />
+            <h3 class="title ">Пунктуальность</h3>
+            <p>
+              Задача организации, в особенности же рамки и место обучения кадров
+              влечет за собой.
+            </p>
+          </li>
+          <li>
+            <img src="images/diagram1.svg" alt="диаграмма" />
+            <h3 class="title">Планирование</h3>
+            <p>
+              Равным образом консультация с широким активом в значительной
+              степени обуславливает.
+            </p>
+          </li>
+          <li>
+            <img src="images/astronaut1.svg" alt="астронавт" />
+            <h3 class="title">Современные технологии</h3>
+            <p>
+              Значимость этих проблем настолько очевидна, что реализация
+              плановых заданий.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <!--чем занимаемся-->
+      <section class="section">
+        <h2 class="section-title">Чем мы занимаемся</h2>
+        <ul class="work-list">
+          <li>
+            <img src="images/screen(1).jpg" alt="экран ноутбука" width="370" />
+            <p class="title">Десктопные приложения</p>
+          </li>
+          <li>
+            <img src="images/smartphone.jpg" alt="смартфон" width="370" />
+            <p class="title">Мобильные приложения</p>
+          </li>
+          <li>
+            <img src="images/screen(2).jpg" alt="экран" width="370" />
+            <p class="title">Дизайнерские решения</p>
+          </li>
+        </ul>
+      </section>
+      <!--команда-->
+      <sectionc lass="section">
+        <h2 class="section-title">Наша команда</h2>
+        <ul class="team-list">
+          <li>
+            <img
+              src="images/member1.jpg"
+              alt="фотография Николая Кучеренко"
+              width="270"
+            />
+            <h3 class="member">Николай Кучеренко</h3>
+            <p>Product Designer</p>
+            <ul>
+              <li>
+                <a href=""
+                  ><img src="images/instagram3.svg" alt="лого инстаграмм"
+                /></a>
+              </li>
+              <li>
+                <a href=""
+                  ><img src="images/twitter3.svg" alt="лого твиттер"
+                /></a>
+              </li>
+              <li>
+                <a href=""
+                  ><img src="images/facebook3.svg" alt="лого фейсбук"
+                /></a>
+              </li>
+              <li>
+                <a href=""
+                  ><img src="images/linkedin3.svg" alt="лого линкедин"
+                /></a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <img
+              src="images/member2.jpg"
+              alt="фотография Ольга Иванова"
+              width="270"
+            />
+            <h3 class="member">Ольга Иванова</h3>
+            <p>Frontend Developer</p>
+            <ul>
+              <li>
+                <a href=""
+                  ><img src="images/instagram3.svg" alt="лого инстаграмм"
+                /></a>
+              </li>
+              <li>
+                <a href=""
+                  ><img src="images/twitter3.svg" alt="лого твиттер"
+                /></a>
+              </li>
+              <li>
+                <a href=""
+                  ><img src="images/facebook3.svg" alt="лого фейсбук"
+                /></a>
+              </li>
+              <li>
+                <a href=""
+                  ><img src="images/linkedin3.svg" alt="лого линкедин"
+                /></a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <img
+              src="images/member3.jpg"
+              alt="фотография Андрей Шевченко"
+              width="270"
+            />
+            <h3 class="member">Андрей Шевченко</h3>
+            <p>Marketing</p>
+            <ul>
+              <li>
+                <a href=""
+                  ><img src="images/instagram3.svg" alt="лого инстаграмм"
+                /></a>
+              </li>
+              <li>
+                <a href=""
+                  ><img src="images/twitter3.svg" alt="лого твиттер"
+                /></a>
+              </li>
+              <li>
+                <a href=""
+                  ><img src="images/facebook3.svg" alt="лого фейсбук"
+                /></a>
+              </li>
+              <li>
+                <a href=""
+                  ><img src="images/linkedin3.svg" alt="лого линкедин"
+                /></a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <img
+              src="images/member4.jpg"
+              alt="фотография Иван Николаев"
+              width="270"
+            />
+            <h3 class="member">Иван Николаев</h3>
+            <p>UI Designer</p>
+            <ul>
+              <li>
+                <a href=""
+                  ><img src="images/instagram3.svg" alt="лого инстаграмм"
+                /></a>
+              </li>
+              <li>
+                <a href=""
+                  ><img src="images/twitter3.svg" alt="лого твиттер"
+                /></a>
+              </li>
+              <li>
+                <a href=""
+                  ><img src="images/facebook3.svg" alt="лого фейсбук"
+                /></a>
+              </li>
+              <li>
+                <a href=""
+                  ><img src="images/linkedin3.svg" alt="лого линкедин"
+                /></a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <!--постоянные клиенты-->
+      <section class="section">
+        <h2 class="section-title">Постоянные клиенты</h2>
+        <ul>
+          <li>
+            <a href=""><img src="images/logo1.svg" alt="лого1" /></a>
+          </li>
+          <li>
+            <a href=""><img src="images/logo2.svg" alt="лого2" /></a>
+          </li>
+          <li>
+            <a href=""><img src="images/logo3.svg" alt="лого3" /></a>
+          </li>
+          <li>
+            <a href=""><img src="images/logo4.svg" alt="лого4" /></a>
+          </li>
+          <li>
+            <a href=""><img src="images/logo5.svg" alt="лого5" /></a>
+          </li>
+          <li>
+            <a href=""><img src="images/logo6.svg" alt="логоo6" /></a>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <!--подвал-->
     <footer>
+      <div>
         <a href="">Web Studio</a>
         <address>
-            г. Киев, пр-т Леси Украинки, 26 <br/>
-            <a href="mailto:info@example.com">info@example.com</a><br/>
-            <a href="tel:+380991111111">+38 099 111 11 11</a>
+          г. Киев, пр-т Леси Украинки, 26<br />
+          <a href="mailto:info@devstudio.com">info@example.com</a><br />
+          <a href="tel:+380961111111">+38 099 111 11 11</a>
         </address>
+      </div>
+
+      <div>
         <b>присоединяйтесь</b>
         <ul>
-            <li><a href=""><img src="images/instagram3.svg"/></a></li>
-            <li><a href=""><img src="images/twitter3.svg"/></a></li>
-            <li><a href=""><img src="images/facebook3.svg"/></a></li>
-            <li><a href=""><img src="images/linkedin3.svg"/></a></li>
+          <li>
+            <a href=""
+              ><img src="images/instagram2.svg" alt="лого инстаграмм"
+            /></a>
+          </li>
+          <li>
+            <a href=""><img src="images/twitter1.svg" alt="лого твиттер" /></a>
+          </li>
+          <li>
+            <a href=""><img src="images/facebook1.svg" alt="лого фейсбук" /></a>
+          </li>
+          <li>
+            <a href=""
+              ><img src="images/linkedin1.svg" alt="лого линкедин"
+            /></a>
+          </li>
         </ul>
+      </div>
+      <div>
+        <b>Подпишитесь на рассылку</b>
+        <button class="button">Подписаться</button>
+      </div>
     </footer>
   </body>
 </html>
