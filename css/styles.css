@@ -155,11 +155,11 @@ body {
 .filter .button:hover,
 .filter .button:focus {
   color: var(--second-accent-color);
-  background-color: #2196f3;
+  background-color: var(--accent-color);
 }
 .text-overlay {
   color: var(--second-accent-color);
-  background-color: var(--primary-text-color);
+  background-color: var(--accent-color);
 
   font-weight: 400;
   font-size: 18px;
